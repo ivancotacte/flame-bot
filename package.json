@@ -10,7 +10,14 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "chatbot",
+    "messenger-bot",
+    "facebook-messenger-bot",
+    "messenger-chatbot",
+    "flame-bot"
+  ],
   "author": {
     "name": "Ivan Cotacte",
     "email": "cotactearmenion@gmail.com"
