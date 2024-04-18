@@ -5,7 +5,6 @@ require('dotenv').config();
 loginPath = { appState: JSON.parse(fs.readFileSync("appstate.json", "utf8")) };
 
 var client = {
-    config: process.env,
     commands: new Map(),
     events: new Map(),
     noprefix: new Map(),
