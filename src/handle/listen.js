@@ -4,7 +4,13 @@ module.exports = (api, client) => {
         client.onload[i].onload(api, client);
     };
 
-    api.setOptions({ listenEvents: true });
+    api.setOptions({ 
+        listenEvents: true,
+        selfListen: false,
+        online: true,
+        forceLogin: true,
+        autoMarkDelivery: false,
+    });
     api.listenMqtt((err, event) => {
         client.events.forEach((value, key) => {
             client.events.get(key).run(api, event, client)

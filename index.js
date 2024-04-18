@@ -13,7 +13,6 @@ var client = {
 };
 
 ['handlerCommand', 'handlerEvent'].forEach(handler => {
-    require(`${__dirname}/core/${handler}`)(client);
 });
 
 login(loginPath, (err, api) => {
