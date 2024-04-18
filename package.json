@@ -32,7 +32,8 @@
   },
   "homepage": "https://github.com/ivancotacte/flame-bot#readme",
   "dependencies": {
-    "bluebird": "^2.11.0"
+    "bluebird": "^2.11.0",
+    "cheerio": "^0.22.0"
   },
   "devDependencies": {
     "prettier": "3.2.5"
