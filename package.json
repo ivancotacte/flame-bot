@@ -19,5 +19,8 @@
     "url": "https://github.com/ivancotacte/flame-bot/issues"
   },
   "homepage": "https://github.com/ivancotacte/flame-bot#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "prettier": "3.2.5"
+  }
 }
