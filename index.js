@@ -2,7 +2,7 @@ const fs = require("fs");
 const login = require("./src/fca-unofficial");
 require('dotenv').config();
 
-loginPath = { appState: JSON.parse(fs.readFileSync("session.json", "utf8")) };
+loginPath = { appState: JSON.parse(fs.readFileSync("appstate.json", "utf8")) };
 
 var client = {
     config: process.env,
