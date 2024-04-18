@@ -1,5 +1,6 @@
 {
   "name": "flame-bot",
+  "description": "",
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
@@ -23,7 +24,6 @@
     "url": "https://github.com/ivancotacte/flame-bot/issues"
   },
   "homepage": "https://github.com/ivancotacte/flame-bot#readme",
-  "description": "",
   "devDependencies": {
     "prettier": "3.2.5"
   }
