@@ -33,7 +33,8 @@
   "homepage": "https://github.com/ivancotacte/flame-bot#readme",
   "dependencies": {
     "bluebird": "^2.11.0",
-    "request": "^2.53.0"
+    "request": "^2.53.0",
+    "npmlog": "^1.2.0"
   },
   "devDependencies": {
     "prettier": "3.2.5"
