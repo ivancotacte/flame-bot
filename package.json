@@ -35,10 +35,11 @@
     "bluebird": "^2.11.0",
     "cheerio": "^0.22.0",
     "dotenv": "^16.4.5",
-    "https-proxy-agent": "^4.0.0",
+    "https-proxy-agent": "^7.0.0",
     "mqtt": "^3.0.0",
     "npmlog": "^1.2.0",
     "request": "^2.53.0",
+    "socks-proxy-agent": "^8.0.3",
     "websocket-stream": "^5.5.0"
   },
   "devDependencies": {
